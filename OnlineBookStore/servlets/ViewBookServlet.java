@@ -17,7 +17,7 @@ public class ViewBookServlet extends GenericServlet{
 			ResultSet rs = ps.executeQuery();
 			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.html");
 			rd.include(req, res);
-			pw.println("<div class=\"tab\">Books Available In Our Store</div>");
+			pw.println("<div class=\"tab\">Books Available In Our AAA Store</div>");
 			pw.println("<div class=\"tab\">\r\n" + 
 					"		<table>\r\n" + 
 					"			<tr>\r\n" + 
